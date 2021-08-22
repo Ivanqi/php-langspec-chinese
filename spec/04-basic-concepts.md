@@ -37,3 +37,9 @@ text:
 <i id="grammar-text">text:</i>
    arbitrary text not containing any of   <i><a href="#grammar-start-tag">start-tag</a></i>   sequences
 </pre>
+
+脚本中的所有部分都被视为属于一个连续部分，但任何插入的文本都被视为[echo 语句](11-statements.md#the-echo-statement)的字符串文字
+
+脚本可以通过[脚本包含操作符](10-expressions.md#script-inclusion-operators)导入另一个脚本
+
+脚本的顶层简称顶层
